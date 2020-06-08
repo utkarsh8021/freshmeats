@@ -6372,7 +6372,7 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
-  height: 30rem;
+  height: 36rem;
    }
 
 .w-auto {
@@ -8002,7 +8002,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: gray; }
+  color: lightgray; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8745,7 +8745,7 @@ h1, h2, h3, h4, h5,
   .product:hover .img-prod .overlay {
     opacity: 0; }
   .product .text {
-    background: #fff;
+    background: black;
     position: relative;
     width: 100%; }
     .product .text h3 {
@@ -8756,7 +8756,7 @@ h1, h2, h3, h4, h5,
       letter-spacing: 1px;
       font-family: "Poppins", Arial, sans-serif; }
       .product .text h3 a {
-        color: #000000; }
+        color: #F8C013; }
     .product .text p.price {
       margin-bottom: 0;
       color: #F8C013;
@@ -9182,8 +9182,8 @@ textarea.form-control {
   height: inherit !important; }
 
 .ftco-animate {
-  opacity: 0;
-  visibility: hidden; }
+  opacity: 50%;
+   }
 
 .bg-primary {
   background: #F8C013 !important; }
