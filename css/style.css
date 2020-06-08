@@ -8752,7 +8752,7 @@ h1, h2, h3, h4, h5,
       .product .text h3 a {
         color: #F8C013; }
     .product .text p.price {
-      margin-bottom: 0;
+      margin-bottom: 10px;
       color: #F8C013;
       font-weight: 400; }
       .product .text p.price span.price-dc {
