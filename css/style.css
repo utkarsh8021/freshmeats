@@ -46,6 +46,14 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+  a.navbar-brand {
+    margin-left: 40px;
+}
+
+div#navbarNavDropdown {
+    margin-right: 40px;
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -4722,7 +4730,7 @@ a.close.disabled {
   top: -9999px;
   width: 50px;
   height: 50px;
-   }
+  overflow: scroll; }
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -6372,8 +6380,7 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
-  height: 36rem;
-   }
+height: 36rem; }
 
 .w-auto {
   width: auto !important; }
@@ -6614,7 +6621,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important; }
+  padding-bottom: 3rem !important; }
 
 .pl-4,
 .px-4 {
@@ -8002,26 +8009,13 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: lightgray; }
+  color: gray; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
     height: 100%;
     width: 100%; }
 
-    #heading2{
-      font-family: "Poppins", Arial, sans-serif;
-      background: #fff;
-      font-size: 25px;
-      line-height: 1.8;
-      font-weight: 400;
-      color: gray; }
-      body.menu-show {
-        overflow: hidden;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-    }
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -8535,7 +8529,7 @@ h1, h2, h3, h4, h5,
     .btn.btn-primary:hover {
       border: 1px solid #F8C013;
       background: transparent;
-      color: black; }
+      color: #F8C013; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #F8C013;
       background: transparent;
@@ -8543,7 +8537,7 @@ h1, h2, h3, h4, h5,
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #F8C013;
-        color: black; }
+        color: #fff; }
   .btn.btn-white {
     background: #fff;
     border: 1px solid #fff;
@@ -8551,7 +8545,7 @@ h1, h2, h3, h4, h5,
     .btn.btn-white:hover {
       background: #F8C013;
       border: 1px solid #F8C013;
-      color: black; }
+      color: #fff; }
     .btn.btn-white.btn-outline-white {
       border: 1px solid #fff;
       background: transparent;
@@ -8559,7 +8553,7 @@ h1, h2, h3, h4, h5,
       .btn.btn-white.btn-outline-white:hover {
         border: 1px solid transparent;
         background: #F8C013;
-        color: black; }
+        color: #fff; }
   .btn.btn-black {
     background: #000000;
     border: 1px solid #000000;
@@ -8749,7 +8743,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 100%; }
     .product .text h3 {
-      font-size: 14px;
+      font-size: 16px;
       margin-bottom: 5px;
       font-weight: 300;
       text-transform: uppercase;
@@ -8802,9 +8796,16 @@ h1, h2, h3, h4, h5,
     -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07); }
     .product:hover .pricing {
-      opacity: 0; }
+      opacity: 0.8;
+      color:rgb(235, 231, 231) }
     .product:hover .text .bottom-area {
-      opacity: 1; }
+      opacity: 0.9; }
+      .product:hover .text h3 a{
+        font-size: 18px;
+        font-weight:bold
+      }
+    
+      
 
 .product-details h3 {
   font-size: 30px;
@@ -9182,8 +9183,8 @@ textarea.form-control {
   height: inherit !important; }
 
 .ftco-animate {
-  opacity: 50%;
-   }
+  opacity: 0;
+  visibility: hidden; }
 
 .bg-primary {
   background: #F8C013 !important; }
@@ -9287,10 +9288,16 @@ textarea.form-control {
 
 .heading-section {
   position: relative; }
- 
+  .heading-section .subheading {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    color: #F8C013; }
   .heading-section h2 {
     position: relative;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
     color: #000000;
     font-family: "Poppins", Arial, sans-serif; }
