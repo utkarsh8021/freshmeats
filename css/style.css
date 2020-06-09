@@ -8798,8 +8798,8 @@ h1, h2, h3, h4, h5,
     .product:hover .pricing, .product:active .pricing {
       opacity: 0.8;
       color:rgb(235, 231, 231) }
-    .product:hover .text .bottom-area, .product:active .text .bottom-area {
-      opacity: 0.9; }
+    .product .text .bottom-area, .product:active .text .bottom-area {
+      opacity: 1; }
       .product:hover .text h3 a, .product:active .text h3 a{
         font-size: 18px;
         font-weight:bold
