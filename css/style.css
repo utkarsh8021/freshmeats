@@ -351,9 +351,9 @@ h6, .h6 {
 
 hr {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
 
 small,
 .small {
@@ -395,7 +395,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: 120px; }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8791,22 +8791,54 @@ h1, h2, h3, h4, h5,
         border-radius: 50%; }
       .product .text .bottom-area .m-auto {
         margin: 0 auto; }
-  .product:hover, .product:active {
+  .product:hover {
     -webkit-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
     box-shadow: -8px 7px 15px -5px rgba(0, 0, 0, 0.2); }
-    .product:hover .pricing, .product:active .pricing {
+    .product:hover .pricing{
       opacity: 0.8;
       color:rgb(235, 231, 231) }
-    .product .text .bottom-area, .product:active .text .bottom-area {
+    .product .text .bottom-area {
       opacity: 1; }
-      .product:hover .text h3 a, .product:active .text h3 a{
+      .product:hover .text h3 a{
         font-size: 18px;
         font-weight:bold
       }
+      .product:hover .text .bottom-area a{
+        width: 45px;
+        height: 45px;
+      }
+      .product:hover .text h3 a{
+        color: #F8C013;
+      }
     
-      
+     /* next and previous testimonial slider */
+      .testimonial-carousel .carousel-control.right::before {
+        content: "\203a";
+    }
+      .testimonial-carousel .carousel-control::before {
+        font-size: 5rem;
+        color: rgba(0,0,0,0.6);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .testimonial-carousel .carousel-control.left::before {
+      content: "\2039";
+  }
 
+  #testimonial_para{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .testimonial-carousel .carousel-control::before {
+    font-size: 5rem;
+    color: rgba(0,0,0,0.6);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
 .product-details h3 {
   font-size: 30px;
   font-weight: 400; }
