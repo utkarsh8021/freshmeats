@@ -46,7 +46,56 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-
+  @media screen and (max-width: 600px) {
+  #invisible1 {
+      display: none !important;
+    }
+    #invisible2 {
+      display: none !important;
+    }
+    #invisible3 {
+      display: none !important;
+    }
+    #invisible4 {
+      display: none !important;
+    }
+    #invisible5 {
+      display: none !important;
+    }
+    #invisible6 {
+      display: none !important;
+    }
+    #invisible7 {
+      display: none !important;
+    }
+    #invisible8 {
+      display: none !important;
+    }
+    #invisible9 {
+      display: none !important;
+    }
+    #invisible10 {
+      display: none !important;
+    }
+    #invisible11 {
+      display: none !important;
+    }
+    #invisible12 {
+      display: none !important;
+    }
+    #invisible13 {
+      display: none !important;
+    }
+    #invisible14{
+      display: none !important;
+    }
+    #invisible15 {
+      display: none !important;
+    }
+    #invisible16 {
+      display: none !important;
+    }
+  }
   
   a.navbar-brand {
     margin-left: 30px;
