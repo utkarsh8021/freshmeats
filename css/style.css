@@ -3565,7 +3565,7 @@ input[type="button"].btn-block {
         position: absolute; }
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-left: 1rem; }
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
       -ms-flex-wrap: nowrap;
@@ -3579,6 +3579,8 @@ input[type="button"].btn-block {
     .navbar-expand-sm .navbar-toggler {
       display: none; } }
 
+
+      
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
@@ -3917,7 +3919,8 @@ transition: transform 0.75s;
 
 .card-img-top:hover{
   transition: transform 0.7s;
-  transform: scale(1.05);
+  transform: scale(1.02);
+  overflow: hidden;
 } 
 
 .card-img-bottom {
@@ -6355,7 +6358,7 @@ button.bg-dark:focus {
   position: sticky !important; }
 
 .fixed-top {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   right: 0;
   left: 0;
@@ -6667,6 +6670,10 @@ button.bg-dark:focus {
 .pl-4,
 .px-4 {
   padding-left: 1.5rem !important; }
+
+  .px-6{
+    padding-left: 2rem !important;
+  }
 
 .p-5 {
   padding: 3rem !important; }
@@ -9276,7 +9283,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 6em 0;
+  padding: 3em 0;
   position: relative; }
 
 .ftco-no-pt {
