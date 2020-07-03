@@ -47,56 +47,164 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
   @media screen and (max-width: 600px) {
-  #invisible1 {
-      display: none !important;
-    }
-    #invisible2 {
-      display: none !important;
-    }
-    #invisible3 {
-      display: none !important;
-    }
-    #invisible4 {
-      display: none !important;
-    }
-    #invisible5 {
-      display: none !important;
-    }
-    #invisible6 {
-      display: none !important;
-    }
-    #invisible7 {
-      display: none !important;
-    }
-    #invisible8 {
-      display: none !important;
-    }
-    #invisible9 {
-      display: none !important;
-    }
-    #invisible10 {
-      display: none !important;
-    }
-    #invisible11 {
-      display: none !important;
-    }
-    #invisible12 {
-      display: none !important;
-    }
-    #invisible13 {
-      display: none !important;
-    }
-    #invisible14{
-      display: none !important;
-    }
-    #invisible15 {
-      display: none !important;
-    }
-    #invisible16 {
-      display: none !important;
-    }
+#desk_mutton{
+  display: none;
+
+}
+#mob_mutton{
+  display: block;
+}
+
+#desk_chicken{
+  display: none;
+}
+#mob_chicken{
+  display: block;
+}
+#desk_seafood{
+  display: none;
+}
+#mob_seafood{
+  display: block;
+}
   }
-  
+
+  @media screen and (min-width: 600px) {
+    #desk_mutton{
+      display: block;
+    
+    }
+    #mob_mutton{
+      display: none;
+    }
+    #desk_chicken{
+      display: block;
+    }
+    #mob_chicken{
+      display: none;
+    }
+    #desk_seafood{
+      display: block;
+    }
+    #mob_seafood{
+      display: none;
+    }
+}
+
+
+  /* @media screen and (min-width: 601px) {
+    #hide_mob_1{
+      display: block!important;
+    }
+    #hide_mob_2{
+      display: block!important;
+    }
+    #hide_mob_3{
+      display: block!important;
+    }
+    #hide_mob_4{
+      display: block!important;
+    }
+    #hide_mob_5{
+      display: block!important;
+    }
+    #hide_mob_6{
+      display: block!important;
+    }
+    #hide_mob_7{
+      display: block!important;
+    }
+    #hide_mob_8{
+      display: block!important;
+    }
+    #hide_mob_9{
+      display: block!important;
+    }
+    #hide_mob_10{
+      display: block!important;
+    }
+    #hide_mob_11{
+      display: block!important;
+    }
+    #hide_mob_12{
+      display: block!important;
+    }
+    #hide_mob_13{
+      display: block!important;
+    }
+    #hide_mob_14{
+      display: block!important;
+    }
+    #hide_mob_15{
+      display: block!important;
+    }
+    #hide_mob_16{
+      display: block!important;
+    }
+    #hide_mob_17{
+      display: block!important;
+    }
+    #hide_mob_18{
+      display: block!important;
+    }
+
+    #hide_desk_1{
+      display: none!important;
+    }
+    #hide_desk_2{
+      display: none!important;
+    }
+    #hide_desk_3{
+      display: none!important;
+    }
+    #hide_desk_4{
+      display: none!important;
+    }
+    #hide_desk_5{
+      display: none!important;
+    }
+    #hide_desk_6{
+      display: none!important;
+    }
+    #hide_desk_7{
+      display: none!important;
+    }
+    #hide_desk_8{
+      display: none!important;
+    }
+    #hide_desk_9{
+      display: none!important;
+    }
+    #hide_desk_10{
+      display: none!important;
+    }
+    #hide_desk_11{
+      display: none!important;
+    }
+    #hide_desk_12{
+      display: none!important;
+    }
+    #hide_desk_13{
+      display: none!important;
+    }
+    #hide_desk_14{
+      display: none!important;
+    }
+    #hide_desk_15{
+      display: none!important;
+    }
+    #hide_desk_16{
+      display: none!important;
+    }
+    #hide_desk_17{
+      display: none!important;
+    }
+    #hide_desk_18{
+      display: none!important;
+    }
+    
+      }
+   */
   a.navbar-brand {
     margin-left: 30px;
 }
