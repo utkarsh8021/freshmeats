@@ -53,7 +53,6 @@
 .ion-ios-quote:before,
 .ion-ios-school:before,
 .ion-ios-send:before,
-.ion-ios-swap:before,
 .ion-ios-text:before,
 .ion-ios-time:before,
 .ion-ios-today:before,
@@ -98,7 +97,6 @@
 .ion-md-quote:before,
 .ion-md-school:before,
 .ion-md-send:before,
-.ion-md-swap:before,
 .ion-md-text:before,
 .ion-md-time:before,
 .ion-md-today:before,
@@ -250,10 +248,6 @@
 
 .ion-ios-send:before {
 	content: "\f20c"
-}
-
-.ion-ios-swap:before {
-	content: "\f21f"
 }
 
 .ion-ios-text:before {
@@ -430,10 +424,6 @@
 
 .ion-md-send:before {
 	content: "\f376"
-}
-
-.ion-md-swap:before {
-	content: "\f389"
 }
 
 .ion-md-text:before {
